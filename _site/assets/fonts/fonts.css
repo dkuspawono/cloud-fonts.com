@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "EBG08-Re";
+  /*src:  url( EBGaramond08-Regular.eot );*/  
+  src:  url('EBGaramond12-Regular.ttf') format('truetype'),
+  	url('EBGaramond12-Regular.woff') format('woff');
+  }

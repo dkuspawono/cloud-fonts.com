@@ -1,0 +1,37 @@
+.amatic
+{
+    font-family: 'Amatic', Tahoma, Helvetica, Arial, Verdana;
+}
+
+.amaticBold
+{
+    font-family: 'Amatic', Tahoma, Helvetica, Arial, Verdana;
+    font-weight:bold;
+}
+
+.amatic, .amaticBold {
+    
+}
+
+.readme {
+    background-color:#fff;
+    
+}
+
+
+.lead-in {
+    font-size:4em;
+}
+
+
+body {
+    padding:34px 0px 0px 0px;
+}
+
+.sectionStart {
+    background-color:#444;
+}
+
+.sectionStart a {
+    color:#fff;
+}

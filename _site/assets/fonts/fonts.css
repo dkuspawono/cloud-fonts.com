@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'amatic';
     src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot');
     src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot?#iefix') format('embedded-opentype'),
@@ -44,7 +44,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 @font-face {
     font-family: 'oxygenmono';

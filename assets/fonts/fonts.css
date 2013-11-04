@@ -1,17 +1,26 @@
+@font-face {
+    font-family: 'amatic';
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot');
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot?#iefix') format('embedded-opentype'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic.woff') format('woff'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    
+}
 
 
 
 @font-face {
-    font-family: 'oxygensansextra-light';
-    src: url('oxygen-sans-extra-light-x.eot');
-    src: url('oxygen-sans-extra-light-x.eot?#iefix') format('embedded-opentype'),
-         url('oxygen-sans-extra-light-x.woff') format('woff'),
-         url('oxygen-sans-extra-light-x.ttf') format('truetype');
+    font-family: 'amatic';
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.eot');
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.eot?#iefix') format('embedded-opentype'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.woff') format('woff'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+    
 }
-
 
 @font-face {
     font-family: 'oxygen';

@@ -1,5 +1,8 @@
-
-
+.oxygen, .amatic {
+text-rendering: optimizeLegibility;
+-ms-font-feature-settings: "kern" 1;
+-webkit-font-kerning: normal;
+}
 
 .blueBox {
 background-color:#389cb5;
@@ -7,17 +10,14 @@ background-color:#389cb5;
 
 .oxygen {
 font-family:'Oxygen';
-text-rendering: optimizeLegibility;
-    -ms-font-feature-settings: "kern" 1;
-    -webkit-font-kerning: normal;
 }
 
 .spec1 {
-font-size:3em;
+font-size:2em;
 }
 
 .spec2 {
-font-size:2em;
+font-size:1.4em;
 }
 
 .amatic

@@ -1,33 +1,29 @@
 <?php
 
-require_once './source/fontproxy.php';
-require_once './source/fonttypes.php';
+require_once 'fontproxy.php';
+require_once 'fonttypes.php';
 
 $proxy = new FontProxy();
 
 $proxy->addFontTypes('Amatic-Regular', array(
-	FontTypes::EOT => './fonts/amatic/amatic-regular.eot',
-	FontTypes::TTF => './fonts/amatic/amatic-regular.ttf',
-		FontTypes::WOFF => './fonts/amatic/amatic-regular.woff'
-))->addFontTypes('Amatic-Bold', array(
-	FontTypes::EOT => './fonts/amatic/amatic-bold.eot',
-	FontTypes::TTF => './fonts/amatic/amatic-bold.ttf',
-	FontTypes::WOFF => './fonts/amatic/amatic-bold.woff'
-
+	FontTypes::OTF => 'fonts/amatic/amatic-regular.otf',
+	FontTypes::EOT => 'fonts/amatic/amatic-regular.eot',
+	FontTypes::TTF => 'fonts/amatic/amatic-regular.ttf'
+))->addFontTypes('LuxiSans-Bold', array(
+	FontTypes::OTF => 'fonts/amatic/amatic-bold.otf',
+	FontTypes::EOT => 'fonts/amatic/amatic-bold',
+	FontTypes::TTF => 'fonts/amatic/amatic-bold.ttf'
 ));
 
-    $proxy = new FontProxy();
 
-    
 $proxy->addFontTypes('Oxygen-Regular', array(
-	FontTypes::EOT => './fonts/oxygen/oxygen-regular.eot',
-	FontTypes::TTF => './fonts/oxygen/oxygen-regular.ttf',
-		FontTypes::WOFF => './fonts/oxygen/oxygen-regular.woff'
+	FontTypes::OTF => 'fonts/oxygen/oxygen-regular.otf',
+	FontTypes::EOT => 'fonts/oxygen/oxygen-regular.eot',
+	FontTypes::TTF => 'fonts/oxygen/oxygen-regular.ttf'
 ))->addFontTypes('Oxygen-Bold', array(
-	FontTypes::EOT => './fonts/oxygen/oxygen-bold.eot',
-	FontTypes::TTF => './fonts/oxygen/oxygen-bold.ttf',
-	FontTypes::WOFF => './fonts/oxygen/oxygen-bold.woff'
-
+	FontTypes::OTF => 'fonts/oxygen/oxygen-bold.otf',
+	FontTypes::EOT => 'fonts/oxygen/oxygen-bold',
+	FontTypes::TTF => 'fonts/oxygen/oxygen-bold.ttf'
 ));
 
 $declarations = '';

@@ -2,7 +2,6 @@
 http://vernnobile.github.com/archive.html
 http://vernnobile.github.com/atom.xml
 http://vernnobile.github.com/categories.html
-http://vernnobile.github.com/garamond.html
 http://vernnobile.github.com/index.html
 http://vernnobile.github.com/pages.html
 http://vernnobile.github.com/rss.xml

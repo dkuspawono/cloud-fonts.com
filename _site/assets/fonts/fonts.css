@@ -1,6 +1,58 @@
 @font-face {
-  font-family: "EBG08-Re";
-  /*src:  url( EBGaramond08-Regular.eot );*/  
-  src:  url('EBGaramond12-Regular.ttf') format('truetype'),
-  	url('EBGaramond12-Regular.woff') format('woff');
-  }
+    font-family: 'amatic';
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot');
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.eot?#iefix') format('embedded-opentype'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic.woff') format('woff'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+
+
+@font-face {
+    font-family: 'amatic';
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.eot');
+    src: url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.eot?#iefix') format('embedded-opentype'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.woff') format('woff'),
+    url('http://www.cloud-fonts.com/fonts/amatic/amatic-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'oxygen';
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.eot');
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.eot?#iefix') format('embedded-opentype'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.woff') format('woff'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'oxygen';
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.eot');
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.woff') format('woff'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygenmono';
+    src: url('oxygenmono-regular.eot');
+    src: url('oxygenmono-regular.eot?#iefix') format('embedded-opentype'),
+         url('oxygenmono-regular.woff') format('woff'),
+         url('oxygenmono-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

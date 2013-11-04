@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap</title>
  <link href="http://vernnobile.github.com/" rel="self"/>
  <link href="http://vernnobile.github.com"/>
- <updated>2013-11-04T13:26:05-08:00</updated>
+ <updated>2013-11-04T13:58:20-08:00</updated>
  <id>http://vernnobile.github.com</id>
  <author>
    <name>Name Lastname</name>
@@ -17,9 +17,7 @@
    <link href="http://vernnobile.github.com/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00-08:00</updated>
    <id>http://vernnobile.github.com/lessons/2011/12/29/jekyll-introduction</id>
-   <content type="html">&lt;p&gt;Included file &amp;#8216;JB/setup&amp;#8217; not found in &lt;em&gt;includes directory&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
+   <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
 
@@ -200,9 +198,14 @@ categories : [lessons, beginner]
 &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;br /&gt;Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site&amp;#8217;s data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template&lt;/strong&gt;&lt;br /&gt;There is a special variable in all templates named : &lt;code&gt;content&lt;/code&gt;. The &lt;code&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
-
-&lt;p&gt;Included file &amp;#8216;JB/liquid_raw&amp;#8217; not found in &lt;em&gt;includes directory&lt;/em&gt;&lt;/p&gt;
-
+&lt;pre&gt;&lt;code&gt;...
+&amp;lt;body&amp;gt;
+  &amp;lt;div id=&quot;sidebar&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
+  &amp;lt;div id=&quot;main&quot;&amp;gt;
+    &amp;#123;{content}&amp;#125;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id='subtemplates'&gt;Sub-Templates&lt;/h3&gt;
 
 &lt;p&gt;Sub-templates are exactly templates with the only difference being they define another &amp;#8220;root&amp;#8221; layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.&lt;/p&gt;

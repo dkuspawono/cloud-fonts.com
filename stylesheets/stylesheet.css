@@ -1,0 +1,63 @@
+.oxygen, .amatic {
+text-rendering: optimizeLegibility;
+-ms-font-feature-settings: "kern" 1;
+-webkit-font-kerning: normal;
+}
+
+.blueBox {
+background-color:#389cb5;
+}
+
+.oxygen {
+font-family:'Oxygen';
+}
+
+.spec1 {
+font-size:2em;
+}
+
+.spec2 {
+font-size:1.4em;
+}
+
+.amatic
+{
+font-family: 'Amatic';
+}
+
+.amaticBold
+{
+font-family: 'Amatic';
+font-weight:bold;
+}
+
+.amatic, .amaticBold {
+    
+}
+
+.readme {
+    background-color:#fff;
+    padding:21px;
+    margin-top:34px;
+    border-radius:13px;
+
+    
+}
+
+
+.lead-in {
+    font-size:4em;
+}
+
+
+body {
+    padding:34px 0px 0px 0px;
+}
+
+.sectionStart {
+    background-color:#444;
+}
+
+.sectionStart a {
+    color:#fff;
+}

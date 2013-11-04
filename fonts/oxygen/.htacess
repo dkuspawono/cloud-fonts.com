@@ -1,0 +1,7 @@
+##Fix to Firefox blocking webfonts from remote URLs ##
+
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>

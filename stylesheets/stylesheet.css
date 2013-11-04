@@ -8,6 +8,12 @@ text-rendering: optimizeLegibility;
 background-color:#389cb5;
 }
 
+.nailCenter {
+    
+text-align:center;
+
+}
+
 .oxygen {
 font-family:'Oxygen';
 }
@@ -18,6 +24,16 @@ font-size:2em;
 
 .spec2 {
 font-size:1.4em;
+}
+
+.spec3 {
+    font-size:1.2em;
+}
+
+.copyright, .copyright a {
+    margin-top:34px;
+    font-size:0.8em;
+    color:#fff;
 }
 
 .amatic
@@ -40,8 +56,6 @@ font-weight:bold;
     padding:21px;
     margin-top:34px;
     border-radius:13px;
-
-    
 }
 
 

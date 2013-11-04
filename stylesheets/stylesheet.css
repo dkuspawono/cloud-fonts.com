@@ -1,12 +1,34 @@
+
+
+
+.blueBox {
+background-color:#389cb5;
+}
+
+.oxygen {
+font-family:'Oxygen';
+text-rendering: optimizeLegibility;
+    -ms-font-feature-settings: "kern" 1;
+    -webkit-font-kerning: normal;
+}
+
+.spec1 {
+font-size:3em;
+}
+
+.spec2 {
+font-size:2em;
+}
+
 .amatic
 {
-    font-family: 'Amatic', Tahoma, Helvetica, Arial, Verdana;
+font-family: 'Amatic';
 }
 
 .amaticBold
 {
-    font-family: 'Amatic', Tahoma, Helvetica, Arial, Verdana;
-    font-weight:bold;
+font-family: 'Amatic';
+font-weight:bold;
 }
 
 .amatic, .amaticBold {
@@ -15,6 +37,10 @@
 
 .readme {
     background-color:#fff;
+    padding:21px;
+    margin-top:34px;
+    border-radius:13px;
+
     
 }
 

@@ -13,28 +13,25 @@
 }
 
 
-
-
 @font-face {
-    font-family: 'oxygensansbook';
-    src: url('oxygen-sans-regular-webfont.eot');
-    src: url('oxygen-sans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oxygen-sans-regular-webfont.woff') format('woff'),
-         url('oxygen-sans-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'oxygen';
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.eot');
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.eot?#iefix') format('embedded-opentype'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.woff') format('woff'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 
 }
 
 
 
-
 @font-face {
-    font-family: 'oxygensansbold';
-    src: url('oxygen-sans-bold-webfont.eot');
-    src: url('oxygen-sans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oxygen-sans-bold-webfont.woff') format('woff'),
-         url('oxygen-sans-bold-webfont.ttf') format('truetype');
+    font-family: 'oxygen';
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.eot');
+    src: url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.woff') format('woff'),
+         url('http://www.cloud-fonts.com/fonts/oxygen/oxygen-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 

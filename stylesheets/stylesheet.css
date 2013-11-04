@@ -8,6 +8,15 @@ text-rendering: optimizeLegibility;
 background-color:#389cb5;
 }
 
+<<<<<<< HEAD
+=======
+.nailCenter {
+    
+text-align:center;
+
+}
+
+>>>>>>> master
 .oxygen {
 font-family:'Oxygen';
 }
@@ -20,6 +29,19 @@ font-size:2em;
 font-size:1.4em;
 }
 
+<<<<<<< HEAD
+=======
+.spec3 {
+    font-size:1.2em;
+}
+
+.copyright, .copyright a {
+    margin-top:34px;
+    font-size:0.8em;
+    color:#fff;
+}
+
+>>>>>>> master
 .amatic
 {
 font-family: 'Amatic';
@@ -40,8 +62,11 @@ font-weight:bold;
     padding:21px;
     margin-top:34px;
     border-radius:13px;
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> master
 }
 
 

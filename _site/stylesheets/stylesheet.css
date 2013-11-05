@@ -4,8 +4,14 @@ text-rendering: optimizeLegibility;
 -webkit-font-kerning: normal;
 }
 
+.infoLine {
+margin-right:8px;
+}
+
 .blueBox {
 background-color:#389cb5;
+margin:-50px 0px -110px 0px;
+z-index:-999;
 }
 
 .nailCenter {
